@@ -17,8 +17,6 @@ Features:
 - Print cocktails. If the list is empty, you cant print it.
 - Toastify prompts if searching, removing, printing.
 
- Installation
-
-1. Clone the repository:
-   git clone https://github.com/yourusername/cocktail-search-gadashellsususco.git
-   cd cocktail-search-gadashellsususco
+ Installation - Clone the repository:
+- git clone https://github.com/yourusername/cocktail-search-gadashellsususco.git
+- cd cocktail-search-gadashellsususco
