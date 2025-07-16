@@ -88,7 +88,7 @@ const CocktailSearch = component(() => {
       return Object.fromEntries(newEntries);
     });
 
-    showToast(`❌ ${name} removed`, "error");
+    showToast("Ingredient removed from shopping list.", "error");
   };
 
   return html`
@@ -173,7 +173,7 @@ const CocktailSearch = component(() => {
             .value=${query}
             @input=${(e) => setQuery(e.target.value)}
             autofocus="autofocus"
-            style="padding: 0.5rem; font-size: 1rem; width: 100%; max-width: 300px; outline:none; margin-bottom:1rem;border:none; border-bottom: 1px solid #3333"
+            style="padding: 0.5rem; font-size: 1rem; width: 100%; max-width: 300px; outline:none; margin-bottom:1rem;border:none; border-bottom: 1px solid #333"
           />
           <button
             @click=${() => {
@@ -199,7 +199,7 @@ const CocktailSearch = component(() => {
                     ${drinks.map(
                       (drink) => html`
                         <li
-                          style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; display:flex; height:100%; border: 1px solid #3333; padding:5px; border-radius: 10px; background-color: #f6f6f6"
+                          style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; display:flex; height:100%; border: 1px solid #333; padding:5px; border-radius: 10px; background-color: #f6f6f6"
                         >
                           <div style="display:flex; flex:1; gap:5px">
                             <img
@@ -237,7 +237,7 @@ const CocktailSearch = component(() => {
                   style=" padding:5px; height:100vh position: relative"
                 >
                   <div
-                    style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; border-radius: 10px; padding: 1rem; height: 30rem; overflow-y:auto; position: sticky; top:0; border: 1px solid #3333; background-color: #f6f6f6"
+                    style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; border-radius: 10px; padding: 1rem; height: 30rem; overflow-y:auto; position: sticky; top:0; border: 1px solid #333; background-color: #f6f6f6"
                   >
                     <h3 style="text-align:center">
                       Shopping List & Ingredients
@@ -281,7 +281,7 @@ const CocktailSearch = component(() => {
     <button
       class="print-button"
       @click=${printList}
-      style="position:fixed; top: 1%; right: 1%; margin-top: 1rem; padding: 0.5rem 1rem; cursor:pointer; border-radius: 5px; border: 1px solid #3333; background:white;"
+      style="position:fixed; top: 1%; right: 1%; margin-top: 1rem; padding: 0.5rem 1rem; cursor:pointer; border-radius: 5px; border: 1px solid #333; background:white;"
     >
       🖨️ Print List
     </button>
