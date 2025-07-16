@@ -1,7 +1,7 @@
-Name: Gad Ashell Sususco
-Email: gadashellsususco7@gmail.com
-Portfolio: https://www.gadashellsususco.dev/
-github: https://github.com/onlygadknows/
+- Name: Gad Ashell Sususco
+- Email: gadashellsususco7@gmail.com
+- Portfolio: https://www.gadashellsususco.dev/
+- github: https://github.com/onlygadknows/
 
 Tech used:
 - Vite
@@ -20,3 +20,7 @@ Features:
  Installation - Clone the repository:
 - git clone https://github.com/yourusername/cocktail-search-gadashellsususco.git
 - cd cocktail-search-gadashellsususco
+- npm install
+- npm run dev | npm start
+
+  THANK YOU! 
